@@ -1,1 +1,69 @@
-{"schema_version":1,"mode":"PAPER ONLY","starting_eur":1000,"last_run_utc":null,"latest":{"capital_eur":1000,"cash_eur":1000,"benchmark_eur":1000,"drawdown_pct":0,"halted":false,"btc_qty":0,"eth_qty":0,"operations":0},"history":[],"operations":[]}
+{
+  "schema_version": 1,
+  "mode": "PAPER ONLY",
+  "starting_eur": 1000,
+  "last_run_utc": "2026-10-30T18:12:07.341409+00:00",
+  "latest": {
+    "capital_eur": 1000.0,
+    "cash_eur": 1000.0,
+    "benchmark_eur": 1000.0,
+    "drawdown_pct": 0.0,
+    "halted": false,
+    "btc_qty": 0.0,
+    "eth_qty": 0.0,
+    "operations": 0
+  },
+  "history": [
+    {
+      "run_utc": "2026-10-30T16:59:56.881507+00:00",
+      "capital_eur": 1000.0,
+      "cash_eur": 1000.0,
+      "benchmark_eur": 1000.0,
+      "drawdown_pct": 0.0,
+      "halted": false,
+      "btc_qty": 0.0,
+      "eth_qty": 0.0
+    },
+    {
+      "run_utc": "2026-10-30T17:37:05.975204+00:00",
+      "capital_eur": 1000.0,
+      "cash_eur": 1000.0,
+      "benchmark_eur": 1000.0,
+      "drawdown_pct": 0.0,
+      "halted": false,
+      "btc_qty": 0.0,
+      "eth_qty": 0.0
+    },
+    {
+      "run_utc": "2026-10-30T17:55:26.046704+00:00",
+      "capital_eur": 1000.0,
+      "cash_eur": 1000.0,
+      "benchmark_eur": 1000.0,
+      "drawdown_pct": 0.0,
+      "halted": false,
+      "btc_qty": 0.0,
+      "eth_qty": 0.0
+    },
+    {
+      "run_utc": "2026-10-30T18:01:50.930380+00:00",
+      "capital_eur": 1000.0,
+      "cash_eur": 1000.0,
+      "benchmark_eur": 1000.0,
+      "drawdown_pct": 0.0,
+      "halted": false,
+      "btc_qty": 0.0,
+      "eth_qty": 0.0
+    },
+    {
+      "run_utc": "2026-10-30T18:12:07.341409+00:00",
+      "capital_eur": 1000.0,
+      "cash_eur": 1000.0,
+      "benchmark_eur": 1000.0,
+      "drawdown_pct": 0.0,
+      "halted": false,
+      "btc_qty": 0.0,
+      "eth_qty": 0.0
+    }
+  ],
+  "operations": []
+}
