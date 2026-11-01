@@ -2,11 +2,11 @@
   "schema_version": 2,
   "mode": "PAPER ONLY",
   "starting_eur": 1000,
-  "last_run_utc": "2026-11-01T16:51:40.572971+00:00",
+  "last_run_utc": "2026-11-01T20:51:43.960758+00:00",
   "latest": {
     "capital_eur": 1000.0,
     "cash_eur": 1000.0,
-    "benchmark_eur": 1011.524,
+    "benchmark_eur": 1009.4391,
     "drawdown_pct": 0.0,
     "halted": false,
     "btc_qty": 0.0,
@@ -193,6 +193,16 @@
       "halted": false,
       "btc_qty": 0.0,
       "eth_qty": 0.0
+    },
+    {
+      "run_utc": "2026-11-01T20:51:43.960758+00:00",
+      "capital_eur": 1000.0,
+      "cash_eur": 1000.0,
+      "benchmark_eur": 1009.4391,
+      "drawdown_pct": 0.0,
+      "halted": false,
+      "btc_qty": 0.0,
+      "eth_qty": 0.0
     }
   ],
   "operations": [],
@@ -356,6 +366,26 @@
       "price": 2029.46,
       "ma30": 2051.59,
       "ma100": 2108.8734
+    },
+    {
+      "time_utc": "2026-11-01T16:00:00+00:00",
+      "asset": "btceur",
+      "signal": "hold",
+      "decision": "wait",
+      "reason": "Nessun incrocio; liquidità mantenuta",
+      "price": 69696.28,
+      "ma30": 70677.325333,
+      "ma100": 72048.5484
+    },
+    {
+      "time_utc": "2026-11-01T16:00:00+00:00",
+      "asset": "etheur",
+      "signal": "hold",
+      "decision": "wait",
+      "reason": "Nessun incrocio; liquidità mantenuta",
+      "price": 2024.04,
+      "ma30": 2048.88,
+      "ma100": 2107.4319
     }
   ]
 }
