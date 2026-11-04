@@ -2,7 +2,7 @@
   "schema_version": 2,
   "mode": "PAPER ONLY",
   "starting_eur": 1000,
-  "last_run_utc": "2026-11-04T17:11:15.938365+00:00",
+  "last_run_utc": "2026-11-04T18:19:11.646859+00:00",
   "latest": {
     "capital_eur": 1000.0,
     "cash_eur": 1000.0,
@@ -366,6 +366,16 @@
     },
     {
       "run_utc": "2026-11-04T17:11:15.938365+00:00",
+      "capital_eur": 1000.0,
+      "cash_eur": 1000.0,
+      "benchmark_eur": 1054.4787,
+      "drawdown_pct": 0.0,
+      "halted": false,
+      "btc_qty": 0.0,
+      "eth_qty": 0.0
+    },
+    {
+      "run_utc": "2026-11-04T18:19:11.646859+00:00",
       "capital_eur": 1000.0,
       "cash_eur": 1000.0,
       "benchmark_eur": 1054.4787,
@@ -897,5 +907,20 @@
       "ma30": 2030.185,
       "ma100": 2088.6298
     }
-  ]
+  ],
+  "early_entry": {
+    "started_at": "2026-11-04T18:19:12.728880+00:00",
+    "last_run_utc": "2026-11-04T18:19:12.728880+00:00",
+    "starting_eur": 1000,
+    "capital_eur": 1000.0,
+    "cash_eur": 1000.0,
+    "benchmark_eur": 1000,
+    "drawdown_pct": 0,
+    "orders": 0,
+    "halted": false,
+    "history": [],
+    "decisions": [],
+    "operations": [],
+    "baseline_reference_eur": 1000.0
+  }
 }
