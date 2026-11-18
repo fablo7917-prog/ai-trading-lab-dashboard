@@ -2,11 +2,11 @@
   "schema_version": 2,
   "mode": "PAPER ONLY",
   "starting_eur": 1000,
-  "last_run_utc": "2026-11-18T09:20:02.192672+00:00",
+  "last_run_utc": "2026-11-18T13:31:46.763660+00:00",
   "latest": {
     "capital_eur": 1000.0,
     "cash_eur": 1000.0,
-    "benchmark_eur": 840.6016,
+    "benchmark_eur": 833.5458,
     "drawdown_pct": 0.0,
     "halted": false,
     "btc_qty": 0.0,
@@ -1203,30 +1203,20 @@
       "halted": false,
       "btc_qty": 0.0,
       "eth_qty": 0.0
+    },
+    {
+      "run_utc": "2026-11-18T13:31:46.763660+00:00",
+      "capital_eur": 1000.0,
+      "cash_eur": 1000.0,
+      "benchmark_eur": 833.5458,
+      "drawdown_pct": 0.0,
+      "halted": false,
+      "btc_qty": 0.0,
+      "eth_qty": 0.0
     }
   ],
   "operations": [],
   "decisions": [
-    {
-      "time_utc": "2026-11-10T00:00:00+00:00",
-      "asset": "btceur",
-      "signal": "hold",
-      "decision": "wait",
-      "reason": "Nessun incrocio; liquidità mantenuta",
-      "price": 66356.24,
-      "ma30": 67892.788333,
-      "ma100": 69834.16
-    },
-    {
-      "time_utc": "2026-11-10T00:00:00+00:00",
-      "asset": "etheur",
-      "signal": "hold",
-      "decision": "wait",
-      "reason": "Nessun incrocio; liquidità mantenuta",
-      "price": 1881.86,
-      "ma30": 1985.887667,
-      "ma100": 2038.1397
-    },
     {
       "time_utc": "2026-11-10T04:00:00+00:00",
       "asset": "btceur",
@@ -2206,15 +2196,35 @@
       "price": 1655.66,
       "ma30": 1672.085333,
       "ma100": 1877.3805
+    },
+    {
+      "time_utc": "2026-11-18T08:00:00+00:00",
+      "asset": "btceur",
+      "signal": "hold",
+      "decision": "wait",
+      "reason": "Nessun incrocio; liquidità mantenuta",
+      "price": 58546.59,
+      "ma30": 59411.139333,
+      "ma100": 65203.8121
+    },
+    {
+      "time_utc": "2026-11-18T08:00:00+00:00",
+      "asset": "etheur",
+      "signal": "hold",
+      "decision": "wait",
+      "reason": "Nessun incrocio; liquidità mantenuta",
+      "price": 1642.8,
+      "ma30": 1667.787667,
+      "ma100": 1873.5681
     }
   ],
   "early_entry": {
     "started_at": "2026-11-04T18:19:12.728880+00:00",
-    "last_run_utc": "2026-11-18T09:20:03.024763+00:00",
+    "last_run_utc": "2026-11-18T13:31:48.191383+00:00",
     "starting_eur": 1000,
     "capital_eur": 1000.0,
     "cash_eur": 1000.0,
-    "benchmark_eur": 797.8944,
+    "benchmark_eur": 791.1848,
     "drawdown_pct": 0.0,
     "orders": 0,
     "halted": false,
@@ -2628,22 +2638,15 @@
         "run_utc": "2026-11-18T09:20:03.024763+00:00",
         "capital_eur": 1000.0,
         "benchmark_eur": 797.8944
+      },
+      {
+        "run_utc": "2026-11-18T13:31:48.191383+00:00",
+        "capital_eur": 1000.0,
+        "benchmark_eur": 791.1848
       }
     ],
     "decisions": [
       {
-        "time_utc": "2026-11-17T08:00:00+00:00",
-        "asset": "btceur",
-        "decision": "wait",
-        "reason": "nessuna_condizione_operativa"
-      },
-      {
-        "time_utc": "2026-11-17T08:00:00+00:00",
-        "asset": "etheur",
-        "decision": "wait",
-        "reason": "nessuna_condizione_operativa"
-      },
-      {
         "time_utc": "2026-11-17T12:00:00+00:00",
         "asset": "btceur",
         "decision": "wait",
@@ -2699,6 +2702,18 @@
       },
       {
         "time_utc": "2026-11-18T04:00:00+00:00",
+        "asset": "etheur",
+        "decision": "wait",
+        "reason": "nessuna_condizione_operativa"
+      },
+      {
+        "time_utc": "2026-11-18T08:00:00+00:00",
+        "asset": "btceur",
+        "decision": "wait",
+        "reason": "nessuna_condizione_operativa"
+      },
+      {
+        "time_utc": "2026-11-18T08:00:00+00:00",
         "asset": "etheur",
         "decision": "wait",
         "reason": "nessuna_condizione_operativa"
